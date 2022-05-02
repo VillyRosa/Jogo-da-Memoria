@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    
+    <div class="menu">
+        <h1 class="menu-title">Jogo da Memória</h1>
+        <div class="menu-time">
+            <p class="time-title">Tempo</p>
+            <hr class="linha">
+            <p class="time" id="time">00 : 00 : 00</p>
+        </div>
+        <div class="menu-time">
+            <p class="time-title">Melhor Tempo</p>
+            <hr class="linha">
+            <p class="time" id="best-time">00 : 00 : 00</p>
+        </div>
+        <div class="botoes">
+            <div class="btn" onclick="RecomecarGame()">
+                <p>Recomeçar</p>
+            </div>
+            <div class="btn" onclick="IniciarGame()">
+                <p>Iniciar</p>
+            </div>
+        </div>          
+        <p style="color: white; text-shadow: 0.1em 0.1em 0.2em black;">&copy;VillyRosa</p>
+    </div>
+
+    <div class="container">
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

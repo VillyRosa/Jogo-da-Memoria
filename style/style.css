@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #4CB13B;
+}
+
+.menu{
+    background-color: #F41220;
+    width: 25vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu .menu-title{
+    font-family: 'Radio Canada', sans-serif;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.menu .menu-time{
+    text-shadow: 0.1em 0.1em 0.2em black;
+    width: 280px;
+    height: 140px;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu .menu-time .time-title{
+    font-family: 'Asap', sans-serif;
+    color: white;
+    font-size: 28px;
+}
+
+.menu .menu-time .linha{
+    width: 15vw;
+    border-color: black;
+    margin: 5px 0 5px 0;
+}
+
+.menu .menu-time .time{
+    color: white;
+    font-size: 30px ;
+    font-family: 'EB Garamond', serif;
+}
+
+.menu .botoes{
+    display: flex;
+    width: 25vw;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu .botoes .btn{
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    background-color: #FECE00;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px 1px black;
+}
+
+.menu .botoes .btn p{
+    font-family: 'Asap', sans-serif; 
+    font-size: 17px;
+}
