@@ -11,6 +11,7 @@
 
 body{
     background-color: #4CB13B;
+    display: flex;
 }
 
 .menu{
@@ -59,6 +60,11 @@ body{
     font-family: 'EB Garamond', serif;
 }
 
+.menu .menu-time span{
+    font-size: 30px ;
+    font-family: 'EB Garamond', serif;
+}
+
 .menu .botoes{
     display: flex;
     width: 25vw;
@@ -81,4 +87,49 @@ body{
 .menu .botoes .btn p{
     font-family: 'Asap', sans-serif; 
     font-size: 17px;
+}
+
+.container{
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .cards{
+    width: 14vw;
+    height: 43vh;
+    background-color: #81ACD6;
+    border-radius: 6px;
+    box-shadow: 0px 0px 8px 0.1em black;
+    cursor: pointer;
+    margin: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .cards img{
+    margin-top: -10px;
+    width: 12vw;
+    height: 20vh;
+}
+
+.container .cards #pica-pau{
+    height: 30vh;
+}
+
+.container .cards #zeca{
+    height: 25vh;
+}
+
+.container .cards #pano{
+    height: 35vh;
+}
+
+.container .cards #leoncio{
+    width: 10vw;
+    height: 30vh;
 }

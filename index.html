@@ -14,7 +14,9 @@
         <div class="menu-time">
             <p class="time-title">Tempo</p>
             <hr class="linha">
-            <p class="time" id="time">00 : 00 : 00</p>
+            <div class="time" id="time">
+                <p><span id="minutos">00</span><span> : </span><span id="segundos">00</span><span> : </span><span id="milisegundos">00</span></p>
+            </div>
         </div>
         <div class="menu-time">
             <p class="time-title">Melhor Tempo</p>
@@ -22,10 +24,10 @@
             <p class="time" id="best-time">00 : 00 : 00</p>
         </div>
         <div class="botoes">
-            <div class="btn" onclick="RecomecarGame()">
+            <div class="btn" onclick="Recomecar()">
                 <p>Recomeçar</p>
             </div>
-            <div class="btn" onclick="IniciarGame()">
+            <div class="btn" onclick="MontarJogo()">
                 <p>Iniciar</p>
             </div>
         </div>          
@@ -33,7 +35,7 @@
     </div>
 
     <div class="container">
-
+        <div class="cards" id="cards" style="cursor: auto;"><img src="images/logo.png" alt="logo-PicaPau"></div>
     </div>
 
     <script src="js/script.js"></script>
